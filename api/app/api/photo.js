@@ -6,6 +6,8 @@ const { PhotoDao, UserDao } = require('../infra')
 
 const api = {}
 
+
+
 const userCanDelete = user => photo => photo.userId == user.id;
 
 const defaultExtension = '.jpg';
